@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon server/src/index.ts"
+    "serve": "nodemon server/src/index.ts",
+    "build": "cd server && tsc",
+    "start": "node server/dist/index"
   },
   "keywords": [],
   "author": "",
