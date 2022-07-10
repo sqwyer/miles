@@ -1,2 +1,2 @@
 # miles
-A workout planner built for runners.
+🏃🏃‍♂️🏃‍♀️ - A workout planner built for runners.
