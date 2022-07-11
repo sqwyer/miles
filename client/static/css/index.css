@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+nav {
+  border-bottom: 1px solid #EBEBEB;
+  padding: 15px 30px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+nav .col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+nav .title {
+  justify-content: center;
+}
+
+nav .title a {
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  color: #59C98C;
+  font-weight: bolder;
+  font-size: 20pt;
+}
+
+nav .list {
+  flex-direction: row;
+  gap: 15px;
+}
+
+nav .list.r {
+  justify-content: right;
+}
+
+nav .list.l {
+  justify-content: left;
+}
+
+nav .icon {
+  height: 15pt;
+  width: 15pt;
+}
+
+#select-mes {
+  border: 2px solid #000;
+  border-radius: 5pt;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 2px 5px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bolder;
+  gap: 5px;
+  font-size: 10pt;
+}
+
+#select-mes .icon {
+  height: 10pt;
+  width: 10pt;
+}
+
+.icon {
+  cursor: pointer;
+  stroke: black !important;
+  stroke-width: 10 !important;
+}
+
+main {
+  padding: 15px 30px;
+}
+
+.btn.add-activity {
+  display: block !important;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 12pt;
+  text-align: center;
+  padding: 5pt 30pt;
+  border-radius: 10pt;
+  color: #fff;
+  background-color: #59C98C;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+button.btn {
+  border: none !important;
+  outline: none !important;
+  font-family: "Heebo", sans-serif;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+/*# sourceMappingURL=index.css.map */

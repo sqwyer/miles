@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    font-size: 12pt;
+    text-align: center;
+    padding: 5pt 30pt;
+    border-radius: 10pt;
+    color: #fff;
+    background-color: $primary;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button.btn {
+    border: none!important;
+    outline: none!important;
+    font-family: 'Heebo', sans-serif;
+}
+
+a.btn {
+    text-decoration: none;
+}
